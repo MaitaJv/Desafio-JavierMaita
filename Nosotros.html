@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Burguer Queen</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,16 +20,16 @@
             <nav class="nav-conteiner">
                 <ul class="lista-conteiner">
                     <li>
-                        <a href="Nosotros.html">Nosotros</a>
+                        <a href="Nosotros.html" class="enlase">Nosotros</a>
                     </li>
                     <li>
-                        <a href="Menu.html">Menú</a>
+                        <a href="Menu.html" class="enlase">Menú</a>
                     </li>
                     <li>
-                        <a href="Sucursales.html">Sucursales</a>
+                        <a href="Sucursales.html" class="enlase">Sucursales</a>
                     </li>
                     <li>
-                        <a href="Cupones.html">Cupones</a>
+                        <a href="Cupones.html" class="enlase">Cupones</a>
                     </li>
                 </ul>
             </nav>
@@ -40,20 +42,20 @@
         <section class="seccion-informativa-1ra">
             <h1>DESDE 1998</h1>
             <div class="info-imgs-conteiner">
-                <img src="imagenes/Foto-1-Nosotros.jpg" alt="foto-1">
-                <img src="imagenes/Foto-2-Nosotros.jpg" alt="foto-2">
-                <img src="imagenes/Foto-3-Nosotros.jpg" alt="foto-3">
+                <img src="imagenes/Foto-1-Nosotros.jpg" alt="foto-1" data-aos="zoom-in">
+                <img src="imagenes/Foto-2-Nosotros.jpg" alt="foto-2" data-aos="zoom-in">
+                <img src="imagenes/Foto-3-Nosotros.jpg" alt="foto-3" data-aos="zoom-in">
             </div>
         </section>
         <section class="seccion-informativa-2da">
-            <div class="info-texto">
+            <div class="info-texto" data-aos="fade-up">
                 <h1>NUESTRA COCINA</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum minus illo debitis non beatae! Libero laborum dignissimos minima nesciunt atque vel sunt, cupiditate soluta reprehenderit error? Distinctio excepturi culpa repellat.</p>
             </div>
         </section>
         <hr>
         <section class="seccion-informativa-3ra">
-            <div class="info-texto">
+            <div class="info-texto" data-aos="fade-up">
                 <h1>ACTUALMENTE</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum minus illo debitis non beatae! Libero laborum dignissimos minima nesciunt atque vel sunt, cupiditate soluta reprehenderit error? Distinctio excepturi culpa repellat.</p>
             </div>
@@ -93,16 +95,16 @@
         <nav class="footer-nav-conteiner">
             <ul class="footer-lista-conteiner">
                 <li>
-                    <a href="Nosotros.html">Nosotros</a>
+                    <a href="Nosotros.html" class="enlase">Nosotros</a>
                 </li>
                 <li>
-                    <a href="Menu.html">Menú</a>
+                    <a href="Menu.html" class="enlase">Menú</a>
                 </li>
                 <li>
-                    <a href="Sucursales.html">Sucursales</a>
+                    <a href="Sucursales.html" class="enlase">Sucursales</a>
                 </li>
                 <li>
-                    <a href="Cupones.html">Cupones</a>
+                    <a href="Cupones.html" class="enlase">Cupones</a>
                 </li>
             </ul>
         </nav>
@@ -139,6 +141,13 @@
             </ul>
         </nav>
     </footer>
+    <!--JS-AOS-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

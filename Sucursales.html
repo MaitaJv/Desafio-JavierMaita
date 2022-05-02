@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Burguer Queen</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,16 +20,16 @@
             <nav class="nav-conteiner">
                 <ul class="lista-conteiner">
                     <li>
-                        <a href="Nosotros.html">Nosotros</a>
+                        <a href="Nosotros.html" class="enlase">Nosotros</a>
                     </li>
                     <li>
-                        <a href="Menu.html">Menú</a>
+                        <a href="Menu.html" class="enlase">Menú</a>
                     </li>
                     <li>
-                        <a href="Sucursales.html">Sucursales</a>
+                        <a href="Sucursales.html" class="enlase">Sucursales</a>
                     </li>
                     <li>
-                        <a href="Cupones.html">Cupones</a>
+                        <a href="Cupones.html" class="enlase">Cupones</a>
                     </li>
                 </ul>
             </nav>
@@ -39,9 +41,9 @@
     <main>
             <section class="seccion-informativa-1ra">
                 <div class="info-imgs-conteiner">
-                    <img src="imagenes/Foto-1-Nosotros.jpg" alt="foto-1">
-                    <img src="imagenes/Foto-2-Nosotros.jpg" alt="foto-2">
-                    <img src="imagenes/Foto-3-Nosotros.jpg" alt="foto-3">
+                    <img src="imagenes/Foto-1-Nosotros.jpg" alt="foto-1" data-aos="zoom-in">
+                    <img src="imagenes/Foto-2-Nosotros.jpg" alt="foto-2" data-aos="zoom-in">
+                    <img src="imagenes/Foto-3-Nosotros.jpg" alt="foto-3" data-aos="zoom-in">
                 </div>
             </section>
             <hr>
@@ -54,7 +56,7 @@
                         <option value="I">Ituzaingo</option>
                     </select>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d3281.8390111177646!2d-58.66915359871895!3d-34.658768430349305!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x95bcc0a07acdd189%3A0x4aa8504cdf26ef64!2sItuzaing%C3%B3%2C%20Ituzaing%C3%B3%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.6596273!2d-58.666228999999994!4m5!1s0x95bcbf5f99137191%3A0x3d3cdb697233fcb4!2sBurger%20King%2C%20General%20las%20Heras%2C%20Ituzaing%C3%B3%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.6579026!2d-58.666344499999994!5e0!3m2!1ses-419!2sar!4v1648949069944!5m2!1ses-419!2sar" width="600" height="450" style="border:solid 2px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="seccion-ubicacion-mapa"></iframe>
+                <iframe data-aos="zoom-in" src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d3281.8390111177646!2d-58.66915359871895!3d-34.658768430349305!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x95bcc0a07acdd189%3A0x4aa8504cdf26ef64!2sItuzaing%C3%B3%2C%20Ituzaing%C3%B3%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.6596273!2d-58.666228999999994!4m5!1s0x95bcbf5f99137191%3A0x3d3cdb697233fcb4!2sBurger%20King%2C%20General%20las%20Heras%2C%20Ituzaing%C3%B3%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.6579026!2d-58.666344499999994!5e0!3m2!1ses-419!2sar!4v1648949069944!5m2!1ses-419!2sar" width="600" height="450" style="border:solid 2px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="seccion-ubicacion-mapa"></iframe>
             </section>
     </main>
     <hr>
@@ -62,16 +64,16 @@
         <nav class="footer-nav-conteiner">
             <ul class="footer-lista-conteiner">
                 <li>
-                    <a href="Nosotros.html">Nosotros</a>
+                    <a href="Nosotros.html" class="enlase">Nosotros</a>
                 </li>
                 <li>
-                    <a href="Menu.html">Menú</a>
+                    <a href="Menu.html" class="enlase">Menú</a>
                 </li>
                 <li>
-                    <a href="Sucursales.html">Sucursales</a>
+                    <a href="Sucursales.html" class="enlase">Sucursales</a>
                 </li>
                 <li>
-                    <a href="Cupones.html">Cupones</a>
+                    <a href="Cupones.html" class="enlase">Cupones</a>
                 </li>
             </ul>
         </nav>
@@ -108,5 +110,12 @@
             </ul>
         </nav>
     </footer>
+    <!--JS-AOS-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

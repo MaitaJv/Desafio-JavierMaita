@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Burguer Queen</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,16 +20,16 @@
             <nav class="nav-conteiner">
                 <ul class="lista-conteiner">
                     <li>
-                        <a href="Nosotros.html">Nosotros</a>
+                        <a href="Nosotros.html" class="enlase">Nosotros</a>
                     </li>
                     <li>
-                        <a href="Menu.html">Menú</a>
+                        <a href="Menu.html" class="enlase">Menú</a>
                     </li>
                     <li>
-                        <a href="Sucursales.html">Sucursales</a>
+                        <a href="Sucursales.html" class="enlase">Sucursales</a>
                     </li>
                     <li>
-                        <a href="Cupones.html">Cupones</a>
+                        <a href="Cupones.html" class="enlase">Cupones</a>
                     </li>
                 </ul>
             </nav>
@@ -44,47 +46,47 @@
             <!--<h1 class="title">NUESTRAS COMIDAS</h1>-->
             <div class="gallery-conteiner">
                 <div class="gallery-items">
-                    <img src="imagenes/Pizza.jpg" alt="" class="gallery-img">
+                    <img src="imagenes/Pizza.jpg" alt="" class="gallery-img"  data-aos="flip-up">
                     <h2 class="gallery-title">Pizza</h2>
                     <h3 class="descuento">15%OFF</h3>
                 </div>
                 <div class="gallery-items">
-                    <img src="imagenes/Carnes.jpg" alt="" class="gallery-img">
+                    <img src="imagenes/Carnes.jpg" alt="" class="gallery-img" data-aos="flip-up">
                     <h2 class="gallery-title">Carnes</h2>
                     <h3 class="descuento">15%OFF</h3>
                 </div>
                 <div class="gallery-items">
-                    <img src="imagenes/Empanadas.jpg" alt="" class="gallery-img">
+                    <img src="imagenes/Empanadas.jpg" alt="" class="gallery-img" data-aos="flip-up"data-aos="flip-up">
                     <h2 class="gallery-title">Empanadas</h2>
                     <h3 class="descuento">15%OFF</h3>
                 </div>
                 <div class="gallery-items img-4">
-                    <img src="imagenes/Pasta.jpg" alt="" class="gallery-img">
+                    <img src="imagenes/Pasta.jpg" alt="" class="gallery-img" data-aos="flip-up">
                     <h2 class="gallery-title">Pastas</h2>
                     <h3 class="descuento">15%OFF</h3>
                 </div>
                 <div class="gallery-items img-5">
-                    <img src="imagenes/Pescado.jpg" alt="" class="gallery-img">
+                    <img src="imagenes/Pescado.jpg" alt="" class="gallery-img" data-aos="flip-up">
                     <h2 class="gallery-title">Pescados</h2>
                     <h3 class="descuento">15%OFF</h3>
                 </div>
                 <div class="gallery-items">
-                    <img src="imagenes/Tartas.jpg" alt="" class="gallery-img">
+                    <img src="imagenes/Tartas.jpg" alt="" class="gallery-img" data-aos="flip-up">
                     <h2 class="gallery-title">Tartas</h2>
                     <h3 class="descuento">15%OFF</h3>
                 </div>
                 <div class="gallery-items">
-                    <img src="imagenes/Ensalada.jpg" alt="" class="gallery-img">
+                    <img src="imagenes/Ensalada.jpg" alt="" class="gallery-img" data-aos="flip-up">
                     <h2 class="gallery-title">Ensaladas</h2>
                     <h3 class="descuento">15%OFF</h3>
                 </div>
                 <div class="gallery-items">
-                    <img src="imagenes/Postres.jpg" alt="" class="gallery-img">
+                    <img src="imagenes/Postres.jpg" alt="" class="gallery-img" data-aos="flip-up">
                     <h2 class="gallery-title">Postres</h2>
                     <h3 class="descuento">15%OFF</h3>
                 </div>
                 <div class="gallery-items img-9">
-                    <img src="imagenes/Entradas.jpg" alt="" class="gallery-img">
+                    <img src="imagenes/Entradas.jpg" alt="" class="gallery-img" data-aos="flip-up">
                     <h2 class="gallery-title">Entradas</h2>
                     <h3 class="descuento">15%OFF</h3>
                 </div>
@@ -96,16 +98,16 @@
         <nav class="footer-nav-conteiner">
             <ul class="footer-lista-conteiner">
                 <li>
-                    <a href="Nosotros.html">Nosotros</a>
+                    <a href="Nosotros.html" class="enlase">Nosotros</a>
                 </li>
                 <li>
-                    <a href="Menu.html">Menú</a>
+                    <a href="Menu.html" class="enlase">Menú</a>
                 </li>
                 <li>
-                    <a href="Sucursales.html">Sucursales</a>
+                    <a href="Sucursales.html" class="enlase">Sucursales</a>
                 </li>
                 <li>
-                    <a href="Cupones.html">Cupones</a>
+                    <a href="Cupones.html" class="enlase">Cupones</a>
                 </li>
             </ul>
         </nav>
@@ -142,5 +144,12 @@
             </ul>
         </nav>
     </footer>
+    <!--JS-AOS-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
