@@ -613,14 +613,29 @@ object-fit: cover;
         text-decoration: none;
         color:  white;
         text-transform: uppercase;
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
     .footer-seccion{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .footer-seccion h2{
         font-size: 0.75rem;
+    }
+
+    .footer-lista-redes{
+        margin-right: 1rem;
+    }
+
+    .imgs-superior li a img{
+        height: 2rem;
+    }
+
+    .imgs-inferior li a img{
+        height: 2rem;
     }
     
     /*nosotros*/
