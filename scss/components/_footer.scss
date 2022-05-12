@@ -1,0 +1,113 @@
+@import '../base/fondos';
+
+.footer-conteiner{
+    padding: 1rem;
+    color:  white;
+    background-color: $fondo-footer;
+    display: flex; 
+    justify-content: space-between;
+
+    .footer-nav-conteiner{
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .footer-lista-conteiner{
+            list-style: none;
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+
+            .enlase{
+
+                margin:0 0.5rem;
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                &:hover{
+                    color: black;
+                    background-color: white;
+                    border-radius: 2rem;
+                    transition: all 1s;
+                    padding: 1rem;
+                }
+
+            }
+
+        }
+
+        .footer-lista-conteiner a{
+            text-decoration: none;
+            color:  white;
+            text-transform: uppercase;
+            font-size: 2rem;
+        }
+
+        .footer-lista-redes{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            @media (max-width:450px) {
+                margin-right: 1rem;
+            }
+        }
+
+        .imgs-superior{
+            display: flex;
+            align-items: center;
+        }
+        
+        .imgs-superior li a{
+            margin-right: 0.5rem;
+        }
+        
+        .imgs-superior li a img{
+            @media (max-width:450px) {
+                height: 2rem;
+            }
+        }
+        
+        .imgs-inferior{
+            display: flex;
+            align-items: center;
+        }
+        
+        .imgs-inferior li a{
+            margin-right: 0.5rem;
+        }
+
+        .imgs-inferior li a img{
+            @media (max-width:450px) {
+                height: 2rem;
+            }
+        }
+
+    }
+
+    .footer-seccion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width:450px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .footer-seccion h2{
+
+        @media (max-width:450px) {
+            font-size: 0.75rem;
+        }
+    }
+
+}
