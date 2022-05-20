@@ -1,0 +1,30 @@
+En el index agrege:
+1- descripcion haceindo uso del meta
+2- keywords
+3- titulos en los iframes
+4- correcion de encabezados
+
+En nosotros agrege:
+1- descripcion haceindo uso del meta
+2- keywords
+4- correcion de encabezados
+
+En sucursales agrege:
+1- descripcion haceindo uso del meta
+2- keywords
+3- titulos en los iframes
+4- correcion de encabezados
+
+En menu agrege:
+1- descripcion haceindo uso del meta
+2- keywords
+4- correcion de encabezados
+
+En cupones agrege:
+1- descripcion haceindo uso del meta
+2- keywords
+3- titulos en los iframes
+4- correcion de encabezados
+
+tambien utilice extends, mixins y mapas. Con esto estaria cumpliendo con las consignas de el desafio
+Espero que este bien y esperare la devolucion del trabajo.

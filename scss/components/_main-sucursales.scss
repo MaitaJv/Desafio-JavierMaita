@@ -1,0 +1,71 @@
+@import '../base/fondos';
+
+.seccion-ubicacion{
+    color: white;
+    background-image: $fondo-main-2-sucursales;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10rem;
+    @extend %grid;
+    gap: 2rem;
+
+    .seccion-ubicacion-eleccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 4rem;
+
+        @media (max-width:450px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            font-size: 2rem;
+        }
+
+        @media (min-width:451px) and (max-width:960px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            font-size: 3rem;
+        }
+    }
+
+    @media (max-width:450px) {
+        color: white;
+        background-image: $fondo-main-2-sucursales;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+        gap: 2rem;
+    }
+
+    @media (min-width:451px) and (max-width:960px) {
+        color: white;
+        background-image: $fondo-main-2-sucursales;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+        gap: 2rem;
+    }
+}
+
+.seccion-ubicacion iframe{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+}

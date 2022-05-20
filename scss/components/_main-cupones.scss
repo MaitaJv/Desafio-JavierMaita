@@ -1,0 +1,55 @@
+@import '../base/fondos';
+
+.seccion-cupones-inicio{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.seccion-cupones-inicio img{
+    height: 5rem;
+    padding: 1rem 0;
+}
+
+.menu{
+    .gallery-conteiner{
+        .gallery-items{
+            .descuento{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                color: black;
+                height: 97%;
+                width: 100%;
+                padding: 5px 0;
+                font-weight: 700;
+                font-family: 'Poppins', sans-serif;
+                font-size: 5rem;
+                -webkit-text-stroke: 1px white;
+
+                &:hover{
+                    visibility: visible;
+                    background-color: rgba(0, 0, 0, 0.582);
+                    font-size: 6.5rem;
+                    transition: all 0.75s;
+                }
+            }
+
+            .boton-estilo{
+                    width: 100%;
+                    background-color: black;
+                    border: solid 2px white;
+                    color: white;
+                &:hover{
+                    background-color: white;
+                    border: solid 2px black;
+                    color: black;
+                }
+            }
+        }
+    }
+}

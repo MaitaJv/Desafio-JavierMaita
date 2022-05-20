@@ -1,0 +1,91 @@
+@import '../base/fondos';
+
+.menu{
+
+    color: white;
+    background-image: $fondo-main-4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .gallery-conteiner{
+
+        margin: 2rem;
+        display: grid;
+        /*columnas*/
+        grid-template-columns: repeat(3, 1fr);
+        /*filas*/
+        grid-auto-rows: 300px;
+        /*espacios entre filas y columnas*/
+        gap: 5rem;
+
+        .gallery-items{
+            position: relative;
+
+            .gallery-title{
+
+                position: absolute;
+                bottom: 0;
+                color: #ffff;
+                background-color: rgba(0, 0, 0, 0.582);
+                width: 100%;
+                padding: 5px 0;
+                font-weight: 200;
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+
+            }
+        }
+
+        .img-9{
+            @media (max-width:450px) {
+                width: 100%;
+                height: 80%;
+                grid-column-start: span 2;
+            }
+        }
+
+        @media (max-width:450px) {
+            margin: 2rem;
+            display: grid;
+            /*columnas*/
+            grid-template-columns: repeat(2, 1fr);
+            /*filas*/
+            grid-auto-rows: 300px;
+            /*espacios entre filas y columnas*/
+            gap: 5rem;
+        }
+
+    }
+
+    .gallery-conteiner h2{
+
+        @media (max-width:450px){
+            font-size: 0.75rem;
+        }
+
+        @media (min-width:451px) and (max-width:960px){
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width:450px) {
+        color: white;
+        background-image: $fondo-main-4;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.menu h1{
+    font-size: 5rem;
+    -webkit-text-stroke: 2px black;
+    @media (max-width:450px) {
+        font-size: 2rem;
+    }
+}

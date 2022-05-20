@@ -1,0 +1,12 @@
+@mixin flex ($flex, $content){
+    display: $flex;
+    justify-content: $content;
+}
+
+.seccion-informativa-2da{
+    @include flex (flex, center);
+}
+
+.seccion-informativa-3ra{
+    @include flex(flex, space-around);
+}
