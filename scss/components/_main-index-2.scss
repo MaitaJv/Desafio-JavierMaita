@@ -54,4 +54,11 @@
         gap: 1.5rem;
     }
 
+    @media (min-width:451px) and (max-width:960px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+        gap: 2rem;
+    }
+
 }
