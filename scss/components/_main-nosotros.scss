@@ -39,7 +39,7 @@
         }
     }
 
-    .info-texto h1{
+    .info-texto h2{
         font-size: 5rem;
         margin-bottom: 1rem;
         -webkit-text-stroke: 1px $border-color;
@@ -108,7 +108,7 @@
         }
     }
 
-    .info-texto h1{
+    .info-texto h2{
         font-size: 5rem;
         margin-bottom: 1rem;
         -webkit-text-stroke: 1px $border-color;
@@ -174,7 +174,7 @@
     }
 }
 
-.seccion-form h1{
+.seccion-form h2{
     font-size: 5rem;
     margin-bottom: 1rem;
     -webkit-text-stroke: 2px $border-color;
@@ -225,7 +225,7 @@
             text-align: center;
             color: #ffff;
             font-size: 3rem;
-            -webkit-text-stroke: 1px $border-color;
+            -webkit-text-stroke: 2px $border-color;
         }
     }
 }
