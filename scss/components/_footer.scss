@@ -21,8 +21,7 @@
             justify-content: center;
 
             .enlase{
-
-                margin:0 0.5rem;
+                margin: 0 0.5rem;
                 text-decoration: none;
                 color: white;
                 text-transform: uppercase;
@@ -39,7 +38,11 @@
 
         }
 
-        .footer-lista-conteiner a{
+        .footer-lista-conteiner li{
+            margin: 0.5rem 0;
+        }
+
+        .footer-lista-conteiner li a{
             text-decoration: none;
             color:  white;
             text-transform: uppercase;
@@ -52,40 +55,50 @@
             flex-direction: column;
             justify-content: space-between;
 
+            .imgs-superior{
+                display: flex;
+                align-items: center;
+            }
+
+            .imgs-superior li{
+                list-style: none;
+            }
+            
+            .imgs-superior li a{
+                margin-right: 0.5rem;
+            }
+            
+            .imgs-superior li a img{
+                @media (max-width:450px) {
+                    height: 2rem;
+                }
+            }
+            
+            .imgs-inferior{
+                display: flex;
+                align-items: center;
+            }
+
+            .imgs-inferior li{
+                list-style: none;
+            }
+            
+            .imgs-inferior li a{
+                margin-right: 0.5rem;
+            }
+    
+            .imgs-inferior li a img{
+                @media (max-width:450px) {
+                    height: 2rem;
+                }
+            }
+
             @media (max-width:450px) {
                 margin-right: 1rem;
             }
         }
 
-        .imgs-superior{
-            display: flex;
-            align-items: center;
-        }
         
-        .imgs-superior li a{
-            margin-right: 0.5rem;
-        }
-        
-        .imgs-superior li a img{
-            @media (max-width:450px) {
-                height: 2rem;
-            }
-        }
-        
-        .imgs-inferior{
-            display: flex;
-            align-items: center;
-        }
-        
-        .imgs-inferior li a{
-            margin-right: 0.5rem;
-        }
-
-        .imgs-inferior li a img{
-            @media (max-width:450px) {
-                height: 2rem;
-            }
-        }
 
     }
 
