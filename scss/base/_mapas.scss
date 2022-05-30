@@ -3,11 +3,12 @@ $gallery-img:(
     height: 100%,
     object-fit: cover,
     box-shadow: 10px 13px 16px 2px rgba(0,0,0,1),
+    border: solid 1px black,
 );
 
 .gallery-img{
+    border: map-get($gallery-img , border);
     width: map-get($gallery-img, width);
     height: map-get($gallery-img, height);
     object-fit: map-get($gallery-img, object-fit);
-    box-shadow: map-get($gallery-img, box-shadow);
 }

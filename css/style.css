@@ -805,14 +805,15 @@ h5 {
   visibility: visible;
   background-color: rgba(0, 0, 0, 0.582);
   font-size: 6.5rem;
-  transition: all 0.75s;
+  transition: all 0.5s;
+  height: 98.25%;
 }
 @media (max-width: 450px) {
   .menu .gallery-conteiner .gallery-items .descuento:hover {
     visibility: visible;
     background-color: rgba(0, 0, 0, 0.582);
     font-size: 3.5rem;
-    transition: all 0.75s;
+    transition: all 0.5s;
   }
 }
 @media (min-width: 451px) and (max-width: 960px) {
@@ -820,7 +821,7 @@ h5 {
     visibility: visible;
     background-color: rgba(0, 0, 0, 0.582);
     font-size: 4.5rem;
-    transition: all 0.75s;
+    transition: all 0.5s;
   }
 }
 .menu .gallery-conteiner .gallery-items .boton-estilo {
@@ -836,10 +837,10 @@ h5 {
 }
 
 .gallery-img {
+  border: solid 1px black;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  box-shadow: 10px 13px 16px 2px rgb(0, 0, 0);
 }
 
 .seccion-informativa-2da .info-texto, .seccion-informativa-3ra .info-texto {
